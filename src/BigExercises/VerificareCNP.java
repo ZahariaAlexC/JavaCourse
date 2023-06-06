@@ -5,7 +5,7 @@ public class VerificareCNP {
 
     public static void main(String[] args) throws Exception {
         VerificareCNP cnp = new VerificareCNP();
-        System.out.println(cnp.checkCNP("2990219469000"));
+        System.out.println(cnp.checkCNP("1910425450036"));
     }
 
 
