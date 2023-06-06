@@ -34,7 +34,6 @@ public class PrimeNumber {
             }
             if (count == 2) {
                 System.out.println("este numar prim " + i);
-
             } else {
                 System.out.println("nu este numar prim " + i);
             }
