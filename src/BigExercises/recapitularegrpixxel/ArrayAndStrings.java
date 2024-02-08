@@ -10,7 +10,7 @@ public class ArrayAndStrings {
     // se populeaza array-ul  prin compararea celor doua arrray uri de mai sus
     String[] fructeMixte;
 
-    String[][] fructeVara =  new String[5][5];
+    String[][] fructeVara =  new String[7][7];
 
     // popularea array ului fructeExotice
     public void fructeExotice(){

@@ -18,7 +18,7 @@ public class Animal {
     }
 
     public void mananca(){
-        System.out.println("Animalul mananca ce vaneaza");
+        System.out.println("Animalul mananca ce vaneaza si se satura foarte repede");
     }
 
     public void merge(){
