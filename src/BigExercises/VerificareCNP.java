@@ -13,7 +13,7 @@ public class VerificareCNP {
     public String checkCNP(String number) throws Exception {
         int suma = 0;
         int cifraControl = 0;
-        if(number.length() > 13 || number.length() < 13) {
+        if(number.length() != 13) {
             throw new IllegalArgumentException("Please add a CNP with 13 digits");
         }
         for(int i = 0;i<number.length()-1;i++) {
@@ -23,7 +23,7 @@ public class VerificareCNP {
 
         if(suma % 11 <10 ){
             cifraControl = suma%11;
-        }else if(suma%11 == 10){
+        }else {
             cifraControl = 1;
         }
 

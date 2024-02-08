@@ -1,4 +1,8 @@
 package JavaTheory.ClassEncapsulation;
 
-public class AccessModifier {
+import encapsulation.Cont;
+
+public class AccessModifier  extends Cont {
+
+    int val = (int) contBancar;
 }
