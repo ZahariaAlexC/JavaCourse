@@ -7,7 +7,6 @@ public class Armstrong {
     public int riseOfPowef(long number) {
         int riseOfPower = 0;
         while(number>0) {
-            long rest = number % 10;
             number = number/10;
             riseOfPower++;
         }
@@ -27,7 +26,6 @@ public class Armstrong {
             elements[i] = rest;
             temp = temp / 10;
         }
-
         for (long element : elements) {
             sum = (int) (sum + pow(element, riseOfPowef(number)));
         }
@@ -39,6 +37,9 @@ public class Armstrong {
         else {
             System.out.println("nu este numar Armstrong");
         }
+
+
+
 
     }
 }

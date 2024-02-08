@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
 # Compiled class file
 *.class
 
@@ -25,16 +23,12 @@
 hs_err_pid*
 replay_pid*
 =======
-=======
->>>>>>> fefff61 (updateRemote)
 ### IntelliJ IDEA ###
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/
-<<<<<<< HEAD
 /DataInput
-=======
->>>>>>> fefff61 (updateRemote)
+
 
 ### Eclipse ###
 .apt_generated
@@ -59,9 +53,6 @@ bin/
 .vscode/
 
 ### Mac OS ###
-<<<<<<< HEAD
 .DS_Store
->>>>>>> fefff61 (updateRemote)
-=======
-.DS_Store
->>>>>>> fefff61 (updateRemote)
+
+/.idea/sonarlint/
